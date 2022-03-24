@@ -1,0 +1,30 @@
+{
+  "name": "cv-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --mode=development",
+    "prod": "webpack --mode=production",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "css-loader": "^6.7.1",
+    "node-sass": "^7.0.1",
+    "postcss-loader": "^6.2.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
