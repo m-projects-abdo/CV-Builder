@@ -5,20 +5,197 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  
   <title>CV BUILDer</title>
 </head>
 
 <body>
-  <div class="container mt-4">
-    <div class="row">
-      <div class="col-5 mx-4 p-4 bg-light">
-        <p class="text text-primary">CV BUILDer</p>
+  <div class="background"></div>
+  
+  <main class="section__header mt-lg-9">
+    <div class="container-lg">
+      <!-- start cv header -->
+      <div class="row header__title">
+        <div class="col-md-6">
+          <h1 class="header__title-main">Jack Felix</h1>
+          <p class="header__title-sub">I am writer</p>
+        </div>
+        <div class="col-md-6 mt-lg-7">
+          <p class="header__title-desc">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+            diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+            aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+            ex ea commodo consequat. Duis autem vel eum iriure dolor in
+            hendrerit in vulputate velit esse molestie consequat, vel illum
+          </p>
+        </div>
       </div>
-      <div class="col-5 mx-4 p-4 bg-success">
-        <p class="text text-light">test</p>
+      <!-- end cv header -->
+
+      <!-- start cv contact -->
+      <div class="row mt-lg-7 header__contact">
+        <!-- start profile image -->
+        <div class="col-md-8">
+          <img 
+            class="img-fluid" 
+            src="./public/images/ic_profile_img.png" 
+            alt="" 
+          />
+        </div>
+        <!-- end profile image -->
+
+        <div class="col-md-4 mt-5 mt-md-0 d-flex flex-column">
+          <h3 class="h1 font-weight-bold">Contact</h3>
+          
+          <!-- start address -->
+          <address class="mt-5">
+            <h5 class="h3 font-weight-bold">Adress</h5>
+            <p class="h4 pt-2">EIB03, 3rd Floor, Damascus City,</p>
+            <p class="h4 pt-2">P.O. Box 23043,</p>
+            <p class="h4 pt-2">Damascus - Syr</p>
+          </address>
+          <!-- end address -->
+          
+          <!-- start phone -->
+          <address class="mt-4">
+            <h5 class="h3 font-weight-bold">Phone:</h5>
+            <p class="h4 pt-2">+963 4 242 8486</p>
+          </address>
+          <!-- end phone -->
+          
+          <!-- start Mobile -->
+          <address class="mt-4">
+            <h5 class="h3 font-weight-bold">Mobile:</h5>
+            <p class="h4 pt-2">+963 1 2344567</p>
+          </address>
+          <!-- end Mobile -->
+          
+          <!-- start E-mail -->
+          <address class="mt-4">
+            <h5 class="h3 font-weight-bold">E-mail:</h5>
+            <p class="h4 pt-2">Jackfelix@.website.com</p>
+          </address>
+          <!-- end E-mail -->
+          
+          <!-- start Nationality -->
+          <address class="mt-4">
+            <h5 class="h3 font-weight-bold">Nationality:</h5>
+            <p class="h4 pt-2">Australian</p>
+          </address>
+          <!-- end Nationality -->
+          
+          <!-- start Website -->
+          <address class="mt-4">
+            <h5 class="h3 font-weight-bold">Website:</h5>
+            <a class="h4 pt-2">https://websiteadress.com</a>
+          </address>
+          <!-- end Website -->
+
+        </div>
       </div>
+      <!-- end cv contact -->
+
+      <!-- start cv content -->
+      <div class="row mt-7 header__content">
+        <div class="col-md-8">
+          <h3 class="h1 font-weight-bold">Work Experiences</h3>
+
+          <!-- start work experiences -->
+          <div class="row mt-5">
+            <!-- first work -->
+            <div class="col-lg-6 position-relative">
+              <!-- start work date template -->
+              <div class="pt-2 pb-2 px-5 rotate-z-90 d-inline-block bg-dark">
+                <p class="h4 text text-light">2020-2020</p>
+              </div>
+              <!-- end work date template -->
+              
+              <!-- start work details -->
+              <div class="ml-5 pl-4">
+                <p class="h3 font-weight-bold">Company Name</p>
+                <p class="h3 text-muted">Senior Web Designer</p>
+                <p class="h3 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
+                  consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod
+                </p>
+              </div>
+              <!-- end work details -->
+            </div>
+
+            <!-- second work -->
+            <div class="col-lg-6 position-relative mt-lg-0 mt-5">
+              <!-- start work date template -->
+              <div class="pt-2 pb-2 px-5 rotate-z-90 d-inline-block bg-dark">
+                <p class="h4 text text-light">2020-2020</p>
+              </div>
+              <!-- end work date template -->
+              
+              <!-- start work details -->
+              <div class="ml-5 pl-4">
+                <p class="h3 font-weight-bold">Company Name</p>
+                <p class="h3 text-muted">Senior Web Designer</p>
+                <p class="h3 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
+                  consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod
+                </p>
+              </div>
+              <!-- end work details -->
+            </div>
+
+            <!-- third work -->
+            <div class="col-lg-6 position-relative mt-5">
+              <!-- start work date template -->
+              <div class="pt-2 pb-2 px-5 rotate-z-90 d-inline-block bg-dark">
+                <p class="h4 text text-light">2020-2020</p>
+              </div>
+              <!-- end work date template -->
+              
+              <!-- start work details -->
+              <div class="ml-5 pl-4">
+                <p class="h3 font-weight-bold">Company Name</p>
+                <p class="h3 text-muted">Senior Web Designer</p>
+                <p class="h3 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
+                  consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod
+                </p>
+              </div>
+              <!-- end work details -->
+            </div>
+
+            <!-- forth work -->
+            <div class="col-lg-6 position-relative mt-5">
+              <!-- start work date template -->
+              <div class="pt-2 pb-2 px-5 rotate-z-90 d-inline-block bg-dark">
+                <p class="h4 text text-light">2020-2020</p>
+              </div>
+              <!-- end work date template -->
+              
+              <!-- start work details -->
+              <div class="ml-5 pl-4">
+                <p class="h3 font-weight-bold">Company Name</p>
+                <p class="h3 text-muted">Senior Web Designer</p>
+                <p class="h3 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
+                  consectetuer adipiscing elit, sed
+                  diam nonummy nibh euismod
+                </p>
+              </div>
+              <!-- end work details -->
+            </div>
+          </div>
+          <!-- end work experiences -->
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+      <!-- end cv content -->
     </div>
-  </div>
+  </main>
 
   <script src="../dist/bundle.js"></script>
 </body>

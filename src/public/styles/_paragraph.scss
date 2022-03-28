@@ -1,0 +1,20 @@
+.header__title {
+  &-main {
+    color: $dark-blue;
+    font: {
+      size: 10rem;
+      family: $main-font
+    }
+  }
+  &-sub {
+    color: $black;
+    font-size: 3rem;
+  }
+  &-desc {
+    color: $black;
+    font: { 
+      weight: 500; 
+      size: 1.5rem; 
+    }
+  }
+}

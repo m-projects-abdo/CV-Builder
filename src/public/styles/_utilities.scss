@@ -1,0 +1,28 @@
+//Custom margin
+.mt-10, .mt-lg-10 { margin-top: 10rem }
+.mt-9, .mt-lg-9 { margin-top: 9rem }
+.mt-8, .mt-lg-8 { margin-top: 8rem }
+.mt-7, .mt-lg-7 { margin-top: 7rem }
+.mt-6, .mt-lg-6 { margin-top: 6rem }
+
+@media screen and (max-width: 700px) {
+  .mt-lg-10, 
+  .mt-lg-9,
+  .mt-lg-8,
+  .mt-lg-7,
+  .mt-lg-6 {margin-top: 0;}
+}
+
+//Custom transform
+.rotate-z-90 {
+  position: absolute;
+  transform: rotateZ(-90deg);
+
+  top: 50px;
+  left: -40px;
+}
+
+//line height
+.line-height-normal {
+  line-height: 1.6 !important;
+}
