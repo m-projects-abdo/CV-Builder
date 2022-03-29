@@ -1,203 +1,478 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap"
-    rel="stylesheet">
-  
-  <title>CV BUILDer</title>
-</head>
+    <title>CV BUILDer</title>
+  </head>
 
-<body>
-  <div class="background"></div>
-  
-  <main class="section__header mt-lg-9">
-    <div class="container-lg">
-      <!-- start cv header -->
-      <div class="row header__title">
-        <div class="col-md-6">
-          <h1 class="header__title-main">Jack Felix</h1>
-          <p class="header__title-sub">I am writer</p>
+  <body>
+    <div class="background"></div>
+
+    <main class="section__header mt-lg-7">
+      <div class="container-lg">
+        <!-- start cv header -->
+        <div class="row header__title">
+          <div class="col-md-6 p-0">
+            <h1 class="header__title-main">Jack Felix</h1>
+            <p class="header__title-sub">I am writer</p>
+          </div>
+          <div class="col-md-6 mt-lg-7 px-lg-6">
+            <p class="header__title-desc">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+              diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+              aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+              nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+              ex ea commodo consequat. Duis autem vel eum iriure dolor in
+              hendrerit in vulputate velit esse molestie consequat, vel illum
+            </p>
+          </div>
         </div>
-        <div class="col-md-6 mt-lg-7">
-          <p class="header__title-desc">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-            diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-            aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-            ex ea commodo consequat. Duis autem vel eum iriure dolor in
-            hendrerit in vulputate velit esse molestie consequat, vel illum
-          </p>
+        <!-- end cv header -->
+
+        <!-- start cv contact -->
+        <div class="row mt-lg-6 header__contact">
+          <!-- start profile image -->
+          <div class="col-md-8 p-0">
+            <img class="img-fluid" src="./public/images/ic_profile_img.png" alt="">
+          </div>
+          <!-- end profile image -->
+
+          <div class="col-md-4 mt-5 mt-md-0 d-flex flex-column">
+            <h3 class="h1 font-weight-bold">Contact</h3>
+
+            <!-- start address -->
+            <address class="mt-5">
+              <h5 class="h3 font-weight-bold">Adress</h5>
+              <p class="h4 pt-2">EIB03, 3rd Floor, Damascus City,</p>
+              <p class="h4 pt-2">P.O. Box 23043,</p>
+              <p class="h4 pt-2">Damascus - Syr</p>
+            </address>
+            <!-- end address -->
+
+            <!-- start phone -->
+            <address class="mt-4">
+              <h5 class="h3 font-weight-bold">Phone:</h5>
+              <p class="h4 pt-2">+963 4 242 8486</p>
+            </address>
+            <!-- end phone -->
+
+            <!-- start Mobile -->
+            <address class="mt-4">
+              <h5 class="h3 font-weight-bold">Mobile:</h5>
+              <p class="h4 pt-2">+963 1 2344567</p>
+            </address>
+            <!-- end Mobile -->
+
+            <!-- start E-mail -->
+            <address class="mt-4">
+              <h5 class="h3 font-weight-bold">E-mail:</h5>
+              <p class="h4 pt-2">Jackfelix@.website.com</p>
+            </address>
+            <!-- end E-mail -->
+
+            <!-- start Nationality -->
+            <address class="mt-4">
+              <h5 class="h3 font-weight-bold">Nationality:</h5>
+              <p class="h4 pt-2">Australian</p>
+            </address>
+            <!-- end Nationality -->
+
+            <!-- start Website -->
+            <address class="mt-4">
+              <h5 class="h3 font-weight-bold">Website:</h5>
+              <a class="h4 pt-2">https://websiteadress.com</a>
+            </address>
+            <!-- end Website -->
+
+          </div>
         </div>
-      </div>
-      <!-- end cv header -->
+        <!-- end cv contact -->
 
-      <!-- start cv contact -->
-      <div class="row mt-lg-7 header__contact">
-        <!-- start profile image -->
-        <div class="col-md-8">
-          <img 
-            class="img-fluid" 
-            src="./public/images/ic_profile_img.png" 
-            alt="" 
-          />
-        </div>
-        <!-- end profile image -->
+        <!-- start cv content -->
+        <div class="row mt-6 header__content">
+          <div class="col-md-8">
+            <!-- start work experiences -->
+            <div class="col-12 p-0">
+              <h3 class="h1 font-weight-bold">Work Experiences</h3>
 
-        <div class="col-md-4 mt-5 mt-md-0 d-flex flex-column">
-          <h3 class="h1 font-weight-bold">Contact</h3>
-          
-          <!-- start address -->
-          <address class="mt-5">
-            <h5 class="h3 font-weight-bold">Adress</h5>
-            <p class="h4 pt-2">EIB03, 3rd Floor, Damascus City,</p>
-            <p class="h4 pt-2">P.O. Box 23043,</p>
-            <p class="h4 pt-2">Damascus - Syr</p>
-          </address>
-          <!-- end address -->
-          
-          <!-- start phone -->
-          <address class="mt-4">
-            <h5 class="h3 font-weight-bold">Phone:</h5>
-            <p class="h4 pt-2">+963 4 242 8486</p>
-          </address>
-          <!-- end phone -->
-          
-          <!-- start Mobile -->
-          <address class="mt-4">
-            <h5 class="h3 font-weight-bold">Mobile:</h5>
-            <p class="h4 pt-2">+963 1 2344567</p>
-          </address>
-          <!-- end Mobile -->
-          
-          <!-- start E-mail -->
-          <address class="mt-4">
-            <h5 class="h3 font-weight-bold">E-mail:</h5>
-            <p class="h4 pt-2">Jackfelix@.website.com</p>
-          </address>
-          <!-- end E-mail -->
-          
-          <!-- start Nationality -->
-          <address class="mt-4">
-            <h5 class="h3 font-weight-bold">Nationality:</h5>
-            <p class="h4 pt-2">Australian</p>
-          </address>
-          <!-- end Nationality -->
-          
-          <!-- start Website -->
-          <address class="mt-4">
-            <h5 class="h3 font-weight-bold">Website:</h5>
-            <a class="h4 pt-2">https://websiteadress.com</a>
-          </address>
-          <!-- end Website -->
+              <div class="row px-4 mt-5">
+                <!-- first work -->
+                <div class="col-lg-6 position-relative">
+                  <!-- start work date template -->
+                  <div class="pt-2 pb-2 pr-4 pl-5 rotate-z-90 d-inline-block bg-dark-blue">
+                    <p class="h4 m-0 color-gray">2020-2020</p>
+                  </div>
+                  <!-- end work date template -->
 
-        </div>
-      </div>
-      <!-- end cv contact -->
+                  <!-- start work details -->
+                  <div class="ml-5 pl-4">
+                    <p class="h4 font-weight-bold">Company Name</p>
+                    <p class="h4 text-muted">Senior Web Designer</p>
+                    <p class="h4 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
+                      consectetuer adipiscing elit, sed
+                      diam nonummy nibh euismod
+                    </p>
+                  </div>
+                  <!-- end work details -->
+                </div>
 
-      <!-- start cv content -->
-      <div class="row mt-7 header__content">
-        <div class="col-md-8">
-          <h3 class="h1 font-weight-bold">Work Experiences</h3>
+                <!-- second work -->
+                <div class="col-lg-6 position-relative mt-lg-0 mt-5">
+                  <!-- start work date template -->
+                  <div class="pt-2 pb-2 pr-4 pl-5 rotate-z-90 d-inline-block bg-dark-blue">
+                    <p class="h4 m-0 color-gray">2020-2020</p>
+                  </div>
+                  <!-- end work date template -->
 
-          <!-- start work experiences -->
-          <div class="row mt-5">
-            <!-- first work -->
-            <div class="col-lg-6 position-relative">
-              <!-- start work date template -->
-              <div class="pt-2 pb-2 px-5 rotate-z-90 d-inline-block bg-dark">
-                <p class="h4 text text-light">2020-2020</p>
+                  <!-- start work details -->
+                  <div class="ml-5 pl-4">
+                    <p class="h4 font-weight-bold">Company Name</p>
+                    <p class="h4 text-muted">Senior Web Designer</p>
+                    <p class="h4 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
+                      consectetuer adipiscing elit, sed
+                      diam nonummy nibh euismod
+                    </p>
+                  </div>
+                  <!-- end work details -->
+                </div>
+
+                <!-- third work -->
+                <div class="col-lg-6 position-relative mt-5">
+                  <!-- start work date template -->
+                  <div class="pt-2 pb-2 pr-4 pl-5 rotate-z-90 d-inline-block bg-dark-blue">
+                    <p class="h4 m-0 color-gray">2020-2020</p>
+                  </div>
+                  <!-- end work date template -->
+
+                  <!-- start work details -->
+                  <div class="ml-5 pl-4">
+                    <p class="h4 font-weight-bold">Company Name</p>
+                    <p class="h4 text-muted">Senior Web Designer</p>
+                    <p class="h4 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
+                      consectetuer adipiscing elit, sed
+                      diam nonummy nibh euismod
+                    </p>
+                  </div>
+                  <!-- end work details -->
+                </div>
+
+                <!-- forth work -->
+                <div class="col-lg-6 position-relative mt-5">
+                  <!-- start work date template -->
+                  <div class="pt-2 pb-2 pr-4 pl-5 rotate-z-90 d-inline-block bg-dark-blue">
+                    <p class="h4 m-0 color-gray">2020-2020</p>
+                  </div>
+                  <!-- end work date template -->
+
+                  <!-- start work details -->
+                  <div class="ml-5 pl-4">
+                    <p class="h4 font-weight-bold">Company Name</p>
+                    <p class="h4 text-muted">Senior Web Designer</p>
+                    <p class="h4 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
+                      consectetuer adipiscing elit, sed
+                      diam nonummy nibh euismod
+                    </p>
+                  </div>
+                  <!-- end work details -->
+                </div>
               </div>
-              <!-- end work date template -->
-              
-              <!-- start work details -->
-              <div class="ml-5 pl-4">
-                <p class="h3 font-weight-bold">Company Name</p>
-                <p class="h3 text-muted">Senior Web Designer</p>
-                <p class="h3 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
-                  consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod
-                </p>
-              </div>
-              <!-- end work details -->
             </div>
+            <!-- end work experiences -->
 
-            <!-- second work -->
-            <div class="col-lg-6 position-relative mt-lg-0 mt-5">
-              <!-- start work date template -->
-              <div class="pt-2 pb-2 px-5 rotate-z-90 d-inline-block bg-dark">
-                <p class="h4 text text-light">2020-2020</p>
+            <!-- start skills -->
+            <div class="col-12 p-0 mt-6">
+              <div class="position-relative">
+                <h3 class="h1 font-weight-bold">Skills</h3>
+                <input 
+                  class="add-skill-checkbox" 
+                  name="add-skill-checkbox" 
+                  id="add-skill-checkbox" 
+                  type="checkbox"
+                >
+                <label class="add-skill-label" for="add-skill-checkbox">
+                  <box-icon 
+                    class="message-plus position-absolute"
+                    name='message-add' 
+                    type='solid' 
+                    color='rgba(22,48,249,0.88)'
+                  ></box-icon>
+                  <div id="add-skill-popup" class="add-skill-popup">
+                    <div class="add-skill-form bg-light p-5 shadow-md rounded-lg position-relative">
+                      <box-icon
+                        onclick="closePopup()"
+                        class="message-circle position-absolute" 
+                        name='x-circle' 
+                        type='solid' 
+                        color='rgba(249,22,28,0.88)'
+                      ></box-icon>
+                      <input 
+                        class="skill-name p-3 h5 rounded-sm" 
+                        type="text" 
+                        name="skill-name" 
+                        id="skill-name"
+                        placeholder="Skill name.."
+                      >
+                      <button class="btn btn-primary h4 mt-3 px-4">Add skill</button>
+                    </div>
+                  </div>
+                </label>
+
               </div>
-              <!-- end work date template -->
+
+              <div class="row mt-5 pr-5">
+                <!-- first skill -->
+                <div class="col-md-4 px-4 d-flex align-items-center justify-content-between mb-4">
+                  <p class="font-weight-bold h4">Adobe Photoshop</p>
+                  <div class="d-flex justify-content-between position-relative">
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <box-icon
+                      onclick="deleteSkill(this)" 
+                      class="message-x position-absolute"
+                      name='message-x' 
+                      type='solid' 
+                      color='rgba(249,22,22,0.88)'
+                    ></box-icon>
+                  </div>
+                </div>
               
-              <!-- start work details -->
-              <div class="ml-5 pl-4">
-                <p class="h3 font-weight-bold">Company Name</p>
-                <p class="h3 text-muted">Senior Web Designer</p>
-                <p class="h3 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
-                  consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod
-                </p>
+                <!-- second skill -->
+                <div class="col-md-4 px-4 d-flex align-items-center justify-content-between mb-4">
+                  <p class="font-weight-bold h4">Adobe XD</p>
+                  <div class="d-flex justify-content-between position-relative">
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <box-icon
+                      onclick="deleteSkill(this)" 
+                      class="message-x position-absolute" 
+                      name='message-x' 
+                      type='solid' 
+                      color='rgba(249,22,22,0.88)'
+                    ></box-icon>
+                  </div>
+                </div>
+              
+                <!-- third skill -->
+                <div class="col-md-4 px-4 d-flex align-items-center justify-content-between mb-4">
+                  <p class="font-weight-bold h4">Canva</p>
+                  <div class="d-flex justify-content-between position-relative">
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <box-icon
+                      onclick="deleteSkill(this)" 
+                      class="message-x position-absolute" 
+                      name='message-x' 
+                      type='solid' 
+                      color='rgba(249,22,22,0.88)'
+                    ></box-icon>
+                  </div>
+                </div>
+              
+                <!-- first skill -->
+                <div class="col-md-4 px-4 d-flex align-items-center justify-content-between mb-4">
+                  <p class="font-weight-bold h4">Adobe illustrator</p>
+                  <div class="d-flex justify-content-between position-relative">
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <box-icon
+                      onclick="deleteSkill(this)" 
+                      class="message-x position-absolute" 
+                      name='message-x' 
+                      type='solid' 
+                      color='rgba(249,22,22,0.88)'
+                    ></box-icon>
+                  </div>
+                </div>
+              
+                <!-- first skill -->
+                <div class="col-md-4 px-4 d-flex align-items-center justify-content-between mb-4">
+                  <p class="font-weight-bold h4">Sketch</p>
+                  <div class="d-flex justify-content-between position-relative">
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <box-icon
+                      onclick="deleteSkill(this)" 
+                      class="message-x position-absolute" 
+                      name='message-x' 
+                      type='solid' 
+                      color='rgba(249,22,22,0.88)'
+                    ></box-icon>
+                  </div>
+                </div>
+              
+                <!-- first skill -->
+                <div class="col-md-4 px-4 d-flex align-items-center justify-content-between mb-4">
+                  <p class="font-weight-bold h4">MS Word</p>
+                  <div class="d-flex justify-content-between position-relative">
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <box-icon
+                      onclick="deleteSkill(this)" 
+                      class="message-x position-absolute" 
+                      name='message-x' 
+                      type='solid' 
+                      color='rgba(249,22,22,0.88)'
+                    ></box-icon>
+                  </div>
+                </div>
+              
+                <!-- first skill -->
+                <div class="col-md-4 px-4 d-flex align-items-center justify-content-between mb-4">
+                  <p class="font-weight-bold h4">Adobe Indesign</p>
+                  <div class="d-flex justify-content-between position-relative">
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <box-icon
+                      onclick="deleteSkill(this)" 
+                      class="message-x position-absolute" 
+                      name='message-x' 
+                      type='solid' 
+                      color='rgba(249,22,22,0.88)'
+                    ></box-icon>
+                  </div>
+                </div>
+              
+                <!-- first skill -->
+                <div class="col-md-4 px-4 d-flex align-items-center justify-content-between mb-4">
+                  <p class="font-weight-bold h4">Figma</p>
+                  <div class="d-flex justify-content-between position-relative">
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <box-icon
+                      onclick="deleteSkill(this)" 
+                      class="message-x position-absolute" 
+                      name='message-x' 
+                      type='solid' 
+                      color='rgba(249,22,22,0.88)'
+                    ></box-icon>
+                  </div>
+                </div>
+              
+                <!-- first skill -->
+                <div class="col-md-4 px-4 d-flex align-items-center justify-content-between mb-4">
+                  <p class="font-weight-bold h4">Pages</p>
+                  <div class="d-flex justify-content-between position-relative">
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component bg-orange mx-1"></span>
+                    <span class="circle-component bg-orange"></span>
+                    <box-icon
+                      onclick="deleteSkill(this)" 
+                      class="message-x position-absolute" 
+                      name='message-x' 
+                      type='solid' 
+                      color='rgba(249,22,22,0.88)'
+                    ></box-icon>
+                  </div>
+                </div>
+              
               </div>
-              <!-- end work details -->
             </div>
+            <!-- end skills -->
 
-            <!-- third work -->
-            <div class="col-lg-6 position-relative mt-5">
-              <!-- start work date template -->
-              <div class="pt-2 pb-2 px-5 rotate-z-90 d-inline-block bg-dark">
-                <p class="h4 text text-light">2020-2020</p>
-              </div>
-              <!-- end work date template -->
-              
-              <!-- start work details -->
-              <div class="ml-5 pl-4">
-                <p class="h3 font-weight-bold">Company Name</p>
-                <p class="h3 text-muted">Senior Web Designer</p>
-                <p class="h3 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
-                  consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod
-                </p>
-              </div>
-              <!-- end work details -->
-            </div>
+          </div>
 
-            <!-- forth work -->
-            <div class="col-lg-6 position-relative mt-5">
-              <!-- start work date template -->
-              <div class="pt-2 pb-2 px-5 rotate-z-90 d-inline-block bg-dark">
-                <p class="h4 text text-light">2020-2020</p>
+          <!-- start Education -->
+          <div class="col-md-4 mt-md-0 mt-5">
+            <h3 class="h1 font-weight-bold">Education</h3>
+
+            <div class="row mt-5">
+              <!-- first education -->
+              <div class="col-12 position-relative">
+                <div class="circle-component bg-gray left-2 position-absolute">
+                </div>
+
+                <!-- start education details -->
+                <div class="ml-5 pl-4">
+                  <p class="h4 font-weight-bold">Master of Dergress</p>
+                  <p class="h4 text-muted">2001-2003, University Name</p>
+                  <p class="h4 text-muted">Location Name</p>
+                  <p class="h4 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed
+                    diam nonummy nibh euismod
+                  </p>
+                </div>
+                <!-- end education details -->
               </div>
-              <!-- end work date template -->
-              
-              <!-- start work details -->
-              <div class="ml-5 pl-4">
-                <p class="h3 font-weight-bold">Company Name</p>
-                <p class="h3 text-muted">Senior Web Designer</p>
-                <p class="h3 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
-                  consectetuer adipiscing elit, sed
-                  diam nonummy nibh euismod
-                </p>
+
+              <!-- second education -->
+              <div class="col-12 position-relative mt-5">
+                <div class="circle-component bg-gray left-2 position-absolute">
+                </div>
+
+                <!-- start education details -->
+                <div class="ml-5 pl-4">
+                  <p class="h4 font-weight-bold">Master of Dergress</p>
+                  <p class="h4 text-muted">2001-2003, University Name</p>
+                  <p class="h4 text-muted">Location Name</p>
+                  <p class="h4 line-height-normal font-weight-bold mt-5">
+                    Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed
+                    diam nonummy nibh euismod
+                  </p>
+                </div>
+                <!-- end education details -->
               </div>
-              <!-- end work details -->
+
+              <!-- third education -->
+              <div class="col-12 position-relative mt-5">
+                <div class="circle-component bg-gray left-2 position-absolute">
+                </div>
+
+                <!-- start education details -->
+                <div class="ml-5 pl-4">
+                  <p class="h4 font-weight-bold">Master of Dergress</p>
+                  <p class="h4 text-muted">2001-2003, University Name</p>
+                  <p class="h4 text-muted">Location Name</p>
+                  <p class="h4 line-height-normal font-weight-bold mt-5">Lorem ipsum dolor sit amet,
+                    consectetuer adipiscing elit, sed
+                    diam nonummy nibh euismod
+                  </p>
+                </div>
+                <!-- end education details -->
+              </div>
+
             </div>
           </div>
-          <!-- end work experiences -->
+          <!-- end Education -->
         </div>
-        <div class="col-md-4"></div>
+        <!-- end cv content -->
       </div>
-      <!-- end cv content -->
-    </div>
-  </main>
+    </main>
 
-  <script src="../dist/bundle.js"></script>
-</body>
-
+    <script src="../dist/bundle.js"></script>
+    <script src="service/functions.js"></script>
+  </body>
 </html>

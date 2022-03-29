@@ -2,8 +2,9 @@
   &-main {
     color: $dark-blue;
     font: {
+      weight: bold;
       size: 10rem;
-      family: $main-font
+      font-family: 'Fredoka One', cursive;
     }
   }
   &-sub {

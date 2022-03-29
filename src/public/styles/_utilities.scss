@@ -5,7 +5,20 @@
 .mt-7, .mt-lg-7 { margin-top: 7rem }
 .mt-6, .mt-lg-6 { margin-top: 6rem }
 
+//Custom padding
+.px-10, .px-lg-10 { padding: 0rem 10rem !important }
+.px-9, .px-lg-9 { padding: 0rem 9rem !important }
+.px-8, .px-lg-8 { padding: 0rem 8rem !important }
+.px-7, .px-lg-7 { padding: 0rem 7rem !important }
+.px-6, .px-lg-6 { padding: 0rem 6rem !important }
+
 @media screen and (max-width: 700px) {
+  .px-lg-10, 
+  .px-lg-9,
+  .px-lg-8,
+  .px-lg-7,
+  .px-lg-6 {padding: 0 !important;}
+
   .mt-lg-10, 
   .mt-lg-9,
   .mt-lg-8,
@@ -13,16 +26,37 @@
   .mt-lg-6 {margin-top: 0;}
 }
 
+//Custom background
+.bg-dark-blue{background: $dark-blue !important;}
+.bg-orange{background: $orange !important;}
+.bg-orange-lighter{background: $orange-lighter !important;}
+.bg-gray{background: $gray !important;}
+.bg-gray-darker{background: $gray-darker !important;}
+.bg-black{background: $black !important;}
+
+//Custom color
+.color-dark-blue{color: $dark-blue !important;}
+.color-orange{color: $orange !important;}
+.color-orange-lighter{color: $orange-lighter !important;}
+.color-gray{color: $gray !important;}
+.color-gray-darker{color: $gray-darker !important;}
+.color-black{color: $black !important;}
+
+
 //Custom transform
 .rotate-z-90 {
   position: absolute;
   transform: rotateZ(-90deg);
-
   top: 50px;
   left: -40px;
 }
 
+.left-2 {
+  top: 5px;
+  left: 1.6rem;
+}
+
 //line height
 .line-height-normal {
-  line-height: 1.6 !important;
+  line-height: 1.8 !important;
 }

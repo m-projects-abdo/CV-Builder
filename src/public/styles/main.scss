@@ -1,11 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
 //Project styles
-@import "./global";
-@import "./sections";
 @import "./variable";
-@import "./paragraph";
 @import "./utilities";
+@import "./global";
+@import "./component";
+@import "./paragraph";
 
 // Required
 @import "~bootstrap/scss/functions";

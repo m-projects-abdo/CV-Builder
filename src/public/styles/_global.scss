@@ -17,3 +17,18 @@ body {
 
   box-sizing: border-box;
 }
+
+body::after {
+  content: '';
+  width: 33%;
+  height: 800px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  background: $orange;
+
+  @media screen and (max-width: 700px) {
+    width: 100%;    
+  }
+}
