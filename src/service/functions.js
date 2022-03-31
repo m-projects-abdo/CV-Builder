@@ -12,13 +12,8 @@ let skillTemplate = (skillName) => `
       <span class="circle-component border border-warning"></span>
       <span class="circle-component border border-warning mx-1"></span>
       <span class="circle-component border border-warning"></span>
-      <box-icon
-        onclick="deleteSkill(this)" 
-        class="message-x position-absolute"
-        name='message-x' 
-        type='solid' 
-        color='rgba(249,22,22,0.88)'
-      ></box-icon>
+      <i onclick="deleteSkill(this)"
+        class='bx bxs-message-x message-x text text-danger h2 position-absolute'></i>
     </div>
   </div>
 `
