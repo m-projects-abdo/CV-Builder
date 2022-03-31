@@ -190,14 +190,9 @@
             <div class="col-12 p-0 mt-6">
               <div class="position-relative">
                 <h3 class="h1 font-weight-bold">Skills</h3>
-                <input 
-                  class="add-skill-checkbox" 
-                  name="add-skill-checkbox" 
-                  id="add-skill-checkbox" 
-                  type="checkbox"
-                >
                 <label class="add-skill-label" for="add-skill-checkbox">
                   <box-icon 
+                    onclick="openPopup()"
                     class="message-plus position-absolute"
                     name='message-add' 
                     type='solid' 
@@ -219,23 +214,26 @@
                         id="skill-name"
                         placeholder="Skill name.."
                       >
-                      <button class="btn btn-primary h4 mt-3 px-4">Add skill</button>
+                      <button 
+                        onclick="addSkill()" 
+                        class="btn btn-primary h4 mt-3 px-4"
+                      >Add skill</button>
                     </div>
                   </div>
                 </label>
 
               </div>
 
-              <div class="row mt-5 pr-5">
+              <div id="skill-container" class="row mt-5 pr-5">
                 <!-- first skill -->
                 <div class="col-md-4 px-4 d-flex align-items-center justify-content-between mb-4">
                   <p class="font-weight-bold h4">Adobe Photoshop</p>
                   <div class="d-flex justify-content-between position-relative">
-                    <span class="circle-component bg-orange"></span>
-                    <span class="circle-component bg-orange mx-1"></span>
-                    <span class="circle-component bg-orange"></span>
-                    <span class="circle-component bg-orange mx-1"></span>
-                    <span class="circle-component bg-orange"></span>
+                    <span class="circle-component border border-warning"></span>
+                    <span class="circle-component border border-warning mx-1"></span>
+                    <span class="circle-component border border-warning"></span>
+                    <span class="circle-component border border-warning mx-1"></span>
+                    <span class="circle-component border border-warning"></span>
                     <box-icon
                       onclick="deleteSkill(this)" 
                       class="message-x position-absolute"
