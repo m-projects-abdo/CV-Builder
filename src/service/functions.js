@@ -20,7 +20,7 @@ let skillTemplate = (skillName) => `
 
 //Delete function
 const deleteSkill = (event) => event.parentNode.parentNode.remove();
-const openPopup = _ => popup.style.display = 'block';
+const openPopup = _ => popup.style.display = 'flex';
 const closePopup = _ => popup.style.display = 'none';
 const addSkill = _ => {
   skillContainer.innerHTML += skillTemplate(skillName);
@@ -31,3 +31,8 @@ const addSkill = _ => {
 skillNameInput.addEventListener('input', (event)=> {
   skillName = event.target.value;
 })
+
+popup.addEventListener('click', (event)=> {
+  console.log(event.offsetX)
+  console.log(event.offsetY);
+});

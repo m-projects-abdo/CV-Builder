@@ -4,6 +4,12 @@
   border-radius: 5rem;
 }
 
+.skill-rate {
+  &:hover {
+    .message-x { opacity: 1; }    
+  }
+}
+
 .message {
   &-plus { 
     top: -15px;
@@ -12,6 +18,8 @@
   &-x { 
     top: -20px;
     right: -20px;
+    opacity: 0;
+    transition: all .3s ease-in-out;
   }
   &-circle {
     top: 5px;
@@ -24,28 +32,19 @@
 }
 
 .add-skill {
-  &-checkbox {
-    display: none;
-  }
-
-  &-checkbox:checked ~ &-label &-popup {
+  &-popup {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    display: block;
+    display: none;
     z-index: 1000;
 
     background: rgba($black, 0.1);
-    display: flex;
     justify-content: center;
     align-items: center;
-
-  }
-  
-  &-label &-popup {
-    display: none;
+    transition: all .3s ease-in-out;
   }
 
   &-form {
@@ -53,7 +52,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    
     .skill-name{
       border: none;
       outline: none;
