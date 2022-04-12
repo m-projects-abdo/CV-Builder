@@ -1,10 +1,15 @@
 .header__title {
   &-main {
     color: $dark-blue;
+    white-space: nowrap;
     font: {
       weight: bold;
       size: 10rem;
       font-family: 'Fredoka One', cursive;
+    }
+    
+    @media screen and (max-width: 600px) {
+      font-size: 6rem;
     }
   }
   &-sub {

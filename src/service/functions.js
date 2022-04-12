@@ -20,11 +20,19 @@ const skillTemplate = (skillName) => `
   </div>
 `
 
-//Delete function
+//Delete skill
 const deleteSkill = (event) => event.parentNode.parentNode.remove();
-const closePopup = _ => popup.style.display = 'none';
-const openPopup = _ => popup.style.display = 'flex';
-
+//Close popup by x-icon
+const closePopup = _ => {
+  popup.classList.remove('popup-active');
+  popupForm.classList.remove('form-active');
+}
+//Open popup by plus-icon
+const openPopup = _ => {
+  popup.classList.add('popup-active');
+  popupForm.classList.add('form-active');
+}
+//Add new skill button
 const addSkill = _ => {
   skillContainer.innerHTML += skillTemplate(skillName);
   skillNameInput.value = '';
@@ -34,7 +42,7 @@ const addSkill = _ => {
 skillNameInput.addEventListener('input', (event)=> {
   skillName = event.target.value;
 })
-
+//Close pupup by clicking outside of popup
 popup.addEventListener('click', (event)=> {
   if (event.target.id != 'add-skill-form' && event.target.id != 'skill-name') {
     closePopup();
